@@ -24,18 +24,18 @@ collections:
       - label: Title
         name: title
         widget: string
-        reqiured: true
+        required: true
 
       - label: Synopsis
         name: body
         widget: markdown 
-        reqiured: false
+        required: false
 
       - label: Production Notes
         name: description
         widget: string
         hint: "Populates the 'description' field."
-        reqiured: false
+        required: false
 
       - label: Publish Date
         name: publishDate
@@ -48,7 +48,7 @@ collections:
       - label: Date Range
         name: dateRange
         widget: string
-        reqiured: false
+        required: false
 
       - label: Short Title
         name: shortTitle
@@ -69,7 +69,7 @@ collections:
         name: showType
         widget: select
         options: [ "Closed", "Cinema", "Animated Cinema", "Live Performance", "Meeting", "Social Event", "Private" ]
-        reqiured: false
+        required: false
 
       - label: Running Time 
         name: runningTime
@@ -86,12 +86,12 @@ collections:
       - label: Official URL
         name: officialURL
         widget: string
-        reqiured: false
+        required: false
 
       - label: IMDB URL 
         name: imdbURL 
         widget: string
-        reqiured: false
+        required: false
       
       - label: Performances
         name: performanceList
