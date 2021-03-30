@@ -4,12 +4,12 @@
   <div class="centered">
     <div id="home-jumbotron" class="jumbotron text-center">
       <h1>{{ .Site.Title }}</h1>
+      {{ if $.Page.Title }}
+        {{ partial "socialshare.html" $.Page }}
+      {{ end }}
       <div class="scroll-left">
         {{ .Site.Params.homeText | markdownify }}
-      </div>  
-      {{ if .Site.Params.socialshare }}
-        {{ partial "socialshare.html" }}
-      {{ end }}  
+      </div>
     </div>
 
     <div role="main" class="main-container container js-quickedit-main-content">
@@ -33,12 +33,12 @@
                       {{ end }}
                     </div>
                   </div>
-                </div>  
+                </div>
                 {{ partial "marquee-foundation.html" }}
               </section>
           </div>
         </div>
     </div>
-    
+
     {{ `<!-- /hugo: main defined in layouts/index.html -->` | safeHTML }}
 {{ end }}
