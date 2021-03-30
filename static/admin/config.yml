@@ -2,10 +2,7 @@ backend:
   name: github
   repo: SummittDweller/wieting-theatre
   branch: main 
-  # api_root: https://api.github.com
-  # site_domain: https://blog.SummittDweller.com
-  # base_url: https://api.netlify.com
-  # auth_endpoint: auth
+  base_url: https://netlify-cms-github-oauth-8d7vc.ondigitalocean.app
 
 media_folder: 'static/img'
 public_folder: 'img'
