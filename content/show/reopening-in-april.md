@@ -1,21 +1,31 @@
 ---
-title: Not Sure What This Is?
-description: Empty
-publishDate: 2021-03-29T17:29:28.820Z
-expiryDate: 2021-04-03T17:29:28.868Z
-dateRange: Unknown
-shortTitle: "123456789012345678901"
-oneSheet: img/closed-until-further-notice.jpg
-showType: Closed
+title: "Reopening Soon!"
+description: "The 'description' holds the production notes."
+publishDate: 2020/03/15
+expiryDate: 2021/04/18
+draft: false
+
+dateRange: "Mid-April"
+shortTitle: "Reopening!"
+oneSheet: /img/closed-until-further-notice.jpg
+showType: Announcement
+showFormat: 
 runningTime: 0
 mpaaRating: Not Rated
 officialURL: x
 imdbURL: x
+studioInfo:
+  studio: x
+  studioFee: 0
+  studioPercentage: 0 
+
 performanceList:
-  performance:
-    - date: 2021-03-29T17:33:56.662Z
-      format: Not Applicable
-      note: No note here.
-draft: false
+  performance: 
+    - date: 2021-03-28T19:00:00-05:00
+      format: 
+    - date: 2021-03-29T15:00:00-05:00
+      format: 
+      note: This is a special show 'note'.
 ---
-What's up?
+
+No feature has been booked yet.
