@@ -430,3 +430,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     max-width: 100%;
   }
 }
+
+li.menu__dropdown {
+  z-index: 100;
+}
