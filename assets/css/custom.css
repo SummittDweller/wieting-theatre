@@ -51,9 +51,9 @@ div.timeline-card {
 
 /* Wieting changes and additions */
 
-body {
+/* body {
   line-height: 1rem;
-}
+} */
 
 main p {
   line-height: 1.25rem;
@@ -152,6 +152,7 @@ div.site-name {
 
 div.site-info {
   font-weight: bold;
+  line-height: 1.25em !important;
 }
 
 .site-info ul { display:inline-block; padding:0; text-align:center }
